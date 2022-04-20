@@ -6,7 +6,7 @@
   <link href="https://yjxdl.github.io/atom.xml" rel="self"/>
   
   <link href="https://yjxdl.github.io/"/>
-  <updated>2022-04-19T12:09:10.155Z</updated>
+  <updated>2022-04-19T09:29:15.655Z</updated>
   <id>https://yjxdl.github.io/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>第一个文章</title>
-    <link href="https://yjxdl.github.io/2022/04/19/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E7%AB%A0/"/>
-    <id>https://yjxdl.github.io/2022/04/19/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E7%AB%A0/</id>
-    <published>2022-04-19T10:41:00.000Z</published>
-    <updated>2022-04-19T12:09:10.155Z</updated>
-    
-    <content type="html"><![CDATA[<p>第一个文章第一个文章第一个文章第一个文章第一个文章第一个文章第一个文章第一个文章第一个文章第一个文章第一个文章第一个文</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;第一个文章第一个文章第一个文章第一个文章第一个文章第一个文章第一个文章第一个文章第一个文章第一个文章第一个文章第一个文&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
