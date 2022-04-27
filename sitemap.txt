@@ -1,7 +1,11 @@
-https://yjxdl.github.io/2022/04/26/%E5%9B%BE%E7%89%87%E5%90%8D%E5%AD%97/%E5%9B%BE%E7%89%87%E5%90%8D%E5%AD%97/
+https://yjxdl.github.io/2022/04/27/CAPP/CSharp%E5%92%8CMatlab%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/
 https://yjxdl.github.io/2022/04/20/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/%E6%BC%94%E7%A4%BA/
+https://yjxdl.github.io/2022/04/26/%E5%9B%BE%E7%89%87%E5%90%8D%E5%AD%97/%E5%9B%BE%E7%89%87%E5%90%8D%E5%AD%97/
 https://yjxdl.github.io/2022/04/19/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/hello-world/
 https://yjxdl.github.io/categories/index.html
 https://yjxdl.github.io/link/index.html
 https://yjxdl.github.io/tags/index.html
 https://yjxdl.github.io/
+https://yjxdl.github.io/tags/C/
+https://yjxdl.github.io/tags/Matlab/
+https://yjxdl.github.io/categories/%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/
