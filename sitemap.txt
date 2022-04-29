@@ -1,3 +1,4 @@
+https://yjxdl.github.io/2022/04/29/CAPP/CSharpLearning/
 https://yjxdl.github.io/2022/04/27/CAPP/CSharp%E5%92%8CMatlab%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/
 https://yjxdl.github.io/categories/index.html
 https://yjxdl.github.io/link/index.html
@@ -6,3 +7,4 @@ https://yjxdl.github.io/
 https://yjxdl.github.io/tags/C/
 https://yjxdl.github.io/tags/Matlab/
 https://yjxdl.github.io/categories/%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/
+https://yjxdl.github.io/categories/C-%E5%AD%A6%E4%B9%A0/
