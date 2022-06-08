@@ -6,7 +6,7 @@
   <link href="https://yjxdl.github.io/atom.xml" rel="self"/>
   
   <link href="https://yjxdl.github.io/"/>
-  <updated>2022-05-03T01:23:56.915Z</updated>
+  <updated>2022-06-08T07:59:25.801Z</updated>
   <id>https://yjxdl.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C#面向对象的学习笔记</title>
+    <link href="https://yjxdl.github.io/2022/06/08/CAPP/CSharp%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://yjxdl.github.io/2022/06/08/CAPP/CSharp%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%AD%A6%E4%B9%A0/</id>
+    <published>2022-06-08T06:59:40.000Z</published>
+    <updated>2022-06-08T07:59:25.801Z</updated>
+    
+    <content type="html"><![CDATA[<style>h2{    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);color: #000;}h3{    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}</style><h2 id="C-继承机制"><a href="#C-继承机制" class="headerlink" title="C#继承机制"></a>C#继承机制</h2><p>一个基类具备基本的特征，派生类除了具备基本特征外还具备特殊的特征。<br>C#继承机制：</p><ol><li>继承是面向对象技术最有特色、最重要、也是与传统编程方法最不同的。</li><li>继承表示了实体间的一种层次关系。<ul><li>基类（父类），派生类（子类）；</li><li>派生类可以继承基类的特征和能力，如属性和方法；</li><li>派生类还可以添加新的特性或者是修改已有的特性以满足特定的要求，但不能删除基类的成员；</li><li>一个父类可以有多个子类，父类是所有子类公共特征的集合，子类则是父类的特殊化。</li><li>C#中每个子类只能有一个基类，即不允许多重继承。</li></ul></li><li>继承的好处：实现了代码的重用。</li><li>派生类可以继承基类中除构造函数和析构函数外的所有可访问的成员。</li><li>访问修饰符protected的作用：子类可以访问，其他的类都不可以访问。</li><li>继承是可传递的</li><li>基类与派生类之间的转换：可以分为隐式转换和显式转换。<ul><li>隐式转换：派生类-&gt;基类</li><li>显式转换：基类-&gt;派生类（有条件），反过来基类想派生对象转换过程就没有这么顺利。<figure class="highlight c#"><figcaption><span>派生类向基类转换</span></figcaption><table><tr><td class="code"><pre><span class="line">People p = <span class="keyword">new</span> People();</span><br><span class="line">Animal a = p;</span><br></pre></td></tr></table></figure><figure class="highlight c#"><figcaption><span>基类向派生类转换,无法编译通过</span></figcaption><table><tr><td class="code"><pre><span class="line">Animal a = <span class="keyword">new</span> Animal();</span><br><span class="line">People p = a;</span><br></pre></td></tr></table></figure><figure class="highlight c#"><figcaption><span>基类向派生类转换,做强制类型转换，会抛出异常：InvalidCastException</span></figcaption><table><tr><td class="code"><pre><span class="line">Animal a = <span class="keyword">new</span> Animal();</span><br><span class="line">People p = (People)a;</span><br></pre></td></tr></table></figure><figure class="highlight c#"><figcaption><span>基类向派生类转换,做强制类型转换，进一步改造</span></figcaption><table><tr><td class="code"><pre><span class="line">Animal a = <span class="keyword">new</span> People();</span><br><span class="line">People p = (People)a;</span><br></pre></td></tr></table></figure>##继承的好处，在程序中的体现<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">//基类</span></span><br><span class="line">Class Animal</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//成员变量</span></span><br><span class="line">    <span class="built_in">int</span> brseval;</span><br><span class="line">    <span class="comment">//成员变量</span></span><br><span class="line">    Animal_fun1()</span><br><span class="line">    &#123;</span><br><span class="line">    <span class="comment">//定义</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//派生类</span></span><br><span class="line">Class Dog:Animal</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//成员变量</span></span><br><span class="line">    <span class="built_in">int</span> derivedvars;</span><br><span class="line">    <span class="comment">//成员函数</span></span><br><span class="line">    Dog_fun1()</span><br><span class="line">    &#123;</span><br><span class="line">    <span class="comment">//定义</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    Dog d = <span class="keyword">new</span> Dog();</span><br><span class="line">    d.Animal_fun1();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>派生类</li></ul></li></ol>]]></content>
+    
+    
+    <summary type="html">C#和Matlab混合编程</summary>
+    
+    
+    
+    <category term="C#面向对象的学习" scheme="https://yjxdl.github.io/categories/C-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="C#" scheme="https://yjxdl.github.io/tags/C/"/>
+    
+  </entry>
   
   <entry>
     <title>C# WinForm窗体自适应各种屏幕的分辨率</title>

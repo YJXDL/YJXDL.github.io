@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yjxdl.github.io/2022/06/08/CAPP/CSharp%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2022-06-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yjxdl.github.io/2022/04/29/CAPP/CSharpLearning/</loc>
     
     <lastmod>2022-05-06</lastmod>
@@ -58,7 +67,7 @@
 
   <url>
     <loc>https://yjxdl.github.io/</loc>
-    <lastmod>2022-05-06</lastmod>
+    <lastmod>2022-06-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -66,14 +75,14 @@
   
   <url>
     <loc>https://yjxdl.github.io/tags/C/</loc>
-    <lastmod>2022-05-06</lastmod>
+    <lastmod>2022-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yjxdl.github.io/tags/Matlab/</loc>
-    <lastmod>2022-05-06</lastmod>
+    <lastmod>2022-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -82,21 +91,28 @@
   
   <url>
     <loc>https://yjxdl.github.io/categories/C/</loc>
-    <lastmod>2022-05-06</lastmod>
+    <lastmod>2022-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yjxdl.github.io/categories/C-%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2022-05-06</lastmod>
+    <lastmod>2022-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yjxdl.github.io/categories/%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2022-05-06</lastmod>
+    <lastmod>2022-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yjxdl.github.io/categories/C-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2022-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
