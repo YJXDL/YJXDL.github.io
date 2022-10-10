@@ -6,7 +6,7 @@
   <link href="https://yjxdl.github.io/atom.xml" rel="self"/>
   
   <link href="https://yjxdl.github.io/"/>
-  <updated>2022-10-06T03:15:23.322Z</updated>
+  <updated>2022-10-10T11:27:48.965Z</updated>
   <id>https://yjxdl.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mysql远程连接设置</title>
+    <link href="https://yjxdl.github.io/2022/10/10/CAPP/%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E8%AE%BE%E7%BD%AE/"/>
+    <id>https://yjxdl.github.io/2022/10/10/CAPP/%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E8%AE%BE%E7%BD%AE/</id>
+    <published>2022-10-10T11:25:57.000Z</published>
+    <updated>2022-10-10T11:27:48.965Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="点击进入-MYSQL-0-Command-Line-Client"><a href="#点击进入-MYSQL-0-Command-Line-Client" class="headerlink" title="点击进入 MYSQL.0 Command Line Client"></a>点击进入 MYSQL.0 Command Line Client</h2><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202210101858437.png"></p><h2 id="输入mysql密码"><a href="#输入mysql密码" class="headerlink" title="输入mysql密码"></a>输入mysql密码</h2><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202210101859326.png"></p><h2 id="选择user数据库"><a href="#选择user数据库" class="headerlink" title="选择user数据库"></a>选择user数据库</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">use mysql;</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202210101903029.png"></p><h2 id="修改远程用户连接"><a href="#修改远程用户连接" class="headerlink" title="修改远程用户连接"></a>修改远程用户连接</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ALTER USER &#x27;root&#x27;@&#x27;%&#x27; IDENTIFIED WITH mysql_native_password BY &#x27;Password&#x27;;</span><br></pre></td></tr></table></figure><p>注意：password这里填你的mysql密码。<br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202210101908826.png"></p><h2 id="授权"><a href="#授权" class="headerlink" title="授权"></a>授权</h2><h3 id="修改表后并不会生效，需要执行以下sql使用修改生效。"><a href="#修改表后并不会生效，需要执行以下sql使用修改生效。" class="headerlink" title="修改表后并不会生效，需要执行以下sql使用修改生效。"></a>修改表后并不会生效，需要执行以下sql使用修改生效。</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">FLUSH PRIVILEGES;</span><br></pre></td></tr></table></figure><h2 id="修改入站规则"><a href="#修改入站规则" class="headerlink" title="修改入站规则"></a>修改入站规则</h2><h3 id="在防火墙和网络保护中的高级设置中修改入站规则"><a href="#在防火墙和网络保护中的高级设置中修改入站规则" class="headerlink" title="在防火墙和网络保护中的高级设置中修改入站规则"></a>在防火墙和网络保护中的高级设置中修改入站规则</h3><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202210101914937.png"></p><h3 id="选择端口"><a href="#选择端口" class="headerlink" title="选择端口"></a>选择端口</h3><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202210101914056.png"></p><h3 id="选择本地端口，输入3306"><a href="#选择本地端口，输入3306" class="headerlink" title="选择本地端口，输入3306"></a>选择本地端口，输入3306</h3><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202210101915513.png"></p><h3 id="一路下一步，最后输入名称"><a href="#一路下一步，最后输入名称" class="headerlink" title="一路下一步，最后输入名称"></a>一路下一步，最后输入名称</h3><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202210101916770.png"></p><h3 id="此时可以在入站规则中看到新增的-testmysql"><a href="#此时可以在入站规则中看到新增的-testmysql" class="headerlink" title="此时可以在入站规则中看到新增的 testmysql"></a>此时可以在入站规则中看到新增的 testmysql</h3><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202210101917179.png"></p>]]></content>
+    
+    
+    <summary type="html">Mysql远程连接配置说明</summary>
+    
+    
+    
+    <category term="Mysql" scheme="https://yjxdl.github.io/categories/Mysql/"/>
+    
+    
+    <category term="Mysql" scheme="https://yjxdl.github.io/tags/Mysql/"/>
+    
+  </entry>
   
   <entry>
     <title>PLC学习</title>
@@ -145,27 +166,6 @@
     
     
     <category term="C#" scheme="https://yjxdl.github.io/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mysql远程连接配置说明</title>
-    <link href="https://yjxdl.github.io/2022/05/03/CAPP/Mysql%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E9%85%8D%E7%BD%AE/"/>
-    <id>https://yjxdl.github.io/2022/05/03/CAPP/Mysql%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E9%85%8D%E7%BD%AE/</id>
-    <published>2022-05-03T01:23:00.000Z</published>
-    <updated>2022-10-10T11:10:16.590Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="点击进入-MYSQL-0-Command-Line-Client"><a href="#点击进入-MYSQL-0-Command-Line-Client" class="headerlink" title="点击进入 MYSQL.0 Command Line Client"></a>点击进入 MYSQL.0 Command Line Client</h2><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202210101858437.png"></p><h2 id="输入mysql密码"><a href="#输入mysql密码" class="headerlink" title="输入mysql密码"></a>输入mysql密码</h2><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202210101859326.png"></p><h2 id="选择user数据库"><a href="#选择user数据库" class="headerlink" title="选择user数据库"></a>选择user数据库</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">use mysql;</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202210101903029.png"></p><h2 id="修改远程用户连接"><a href="#修改远程用户连接" class="headerlink" title="修改远程用户连接"></a>修改远程用户连接</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ALTER USER &#x27;root&#x27;@&#x27;%&#x27; IDENTIFIED WITH mysql_native_password BY &#x27;Password&#x27;;</span><br></pre></td></tr></table></figure><p>注意：password这里填你的mysql密码。<br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202210101908826.png"></p><h2 id="授权"><a href="#授权" class="headerlink" title="授权"></a>授权</h2><p>修改表后并不会生效，需要执行以下sql使用修改生效。</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">FLUSH PRIVILEGES;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">C# WinForm窗体自适应各种屏幕的分辨率</summary>
-    
-    
-    
-    <category term="Mysql" scheme="https://yjxdl.github.io/categories/Mysql/"/>
-    
-    
-    <category term="Mysql" scheme="https://yjxdl.github.io/tags/Mysql/"/>
     
   </entry>
   
