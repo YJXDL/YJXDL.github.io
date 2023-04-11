@@ -1,3 +1,4 @@
+https://yjxdl.github.io/2022/04/29/CAPP/CSharpLearning/
 https://yjxdl.github.io/2022/10/11/CAPP/MYSQL%E4%BC%A0%E8%BE%93%E5%A4%A7%E9%87%8F%E6%95%B0%E6%8D%AE/
 https://yjxdl.github.io/2022/10/10/CAPP/MYSQL%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E8%AE%BE%E7%BD%AE/
 https://yjxdl.github.io/2022/10/03/CAPP/PLC%E5%AD%A6%E4%B9%A0/
@@ -5,7 +6,6 @@ https://yjxdl.github.io/2022/09/30/CAPP/Csharp%E8%BF%9E%E6%8E%A5PLC/
 https://yjxdl.github.io/2022/05/03/CAPP/CSharp%20WinForm%E7%AA%97%E4%BD%93%E9%80%82%E5%BA%94%E5%90%84%E7%A7%8D%E5%B1%8F%E5%B9%95%E5%88%86%E8%BE%A8%E7%8E%87/
 https://yjxdl.github.io/2022/06/08/CAPP/CSharp%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%AD%A6%E4%B9%A0/
 https://yjxdl.github.io/2022/04/27/CAPP/CSharp%E5%92%8CMatlab%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/
-https://yjxdl.github.io/2022/04/29/CAPP/CSharpLearning/
 https://yjxdl.github.io/2022/06/16/SelfLearning/Refactoring/
 https://yjxdl.github.io/2022/06/22/SelfLearning/CSharp%E4%BD%BF%E7%94%A8Redis/
 https://yjxdl.github.io/categories/index.html
