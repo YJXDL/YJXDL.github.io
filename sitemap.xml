@@ -2,9 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yjxdl.github.io/2022/10/10/CAPP/MYSQL%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E8%AE%BE%E7%BD%AE/</loc>
+    
+    <lastmod>2024-09-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yjxdl.github.io/2022/04/29/CAPP/CSharpLearning/</loc>
     
-    <lastmod>2023-04-19</lastmod>
+    <lastmod>2024-09-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yjxdl.github.io/2022/09/30/CAPP/Csharp%E8%BF%9E%E6%8E%A5PLC/</loc>
+    
+    <lastmod>2024-09-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yjxdl.github.io/2022/10/11/CAPP/MYSQL%E4%BC%A0%E8%BE%93%E5%A4%A7%E9%87%8F%E6%95%B0%E6%8D%AE/</loc>
+    
+    <lastmod>2024-09-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -38,36 +65,9 @@
   </url>
   
   <url>
-    <loc>https://yjxdl.github.io/2022/10/11/CAPP/MYSQL%E4%BC%A0%E8%BE%93%E5%A4%A7%E9%87%8F%E6%95%B0%E6%8D%AE/</loc>
-    
-    <lastmod>2022-10-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yjxdl.github.io/2022/10/10/CAPP/MYSQL%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E8%AE%BE%E7%BD%AE/</loc>
-    
-    <lastmod>2022-10-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yjxdl.github.io/2022/10/03/CAPP/PLC%E5%AD%A6%E4%B9%A0/</loc>
     
     <lastmod>2022-10-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yjxdl.github.io/2022/09/30/CAPP/Csharp%E8%BF%9E%E6%8E%A5PLC/</loc>
-    
-    <lastmod>2022-09-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
