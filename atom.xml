@@ -6,7 +6,7 @@
   <link href="https://yjxdl.github.io/atom.xml" rel="self"/>
   
   <link href="https://yjxdl.github.io/"/>
-  <updated>2023-04-13T06:55:12.595Z</updated>
+  <updated>2024-09-14T03:38:00.393Z</updated>
   <id>https://yjxdl.github.io/</id>
   
   <author>
@@ -15,6 +15,85 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>大屏展示</title>
+    <link href="https://yjxdl.github.io/2024/09/14/%E5%A4%A7%E5%B1%8F%E5%B1%95%E7%A4%BA/"/>
+    <id>https://yjxdl.github.io/2024/09/14/%E5%A4%A7%E5%B1%8F%E5%B1%95%E7%A4%BA/</id>
+    <published>2024-09-14T03:37:01.000Z</published>
+    <updated>2024-09-14T03:38:00.393Z</updated>
+    
+    <content type="html"><![CDATA[<style>h2{    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);color: #000;}h3{    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}</style>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;style&gt;
+h2{
+    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);
+color: #000;
+}
+h3{
+    background: linear-gradient(to top, </summary>
+      
+    
+    
+    
+    
+    <category term="大屏展示，mysql" scheme="https://yjxdl.github.io/tags/%E5%A4%A7%E5%B1%8F%E5%B1%95%E7%A4%BA%EF%BC%8Cmysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ElementUI</title>
+    <link href="https://yjxdl.github.io/2024/09/10/ElementUI/"/>
+    <id>https://yjxdl.github.io/2024/09/10/ElementUI/</id>
+    <published>2024-09-09T23:58:59.000Z</published>
+    <updated>2024-09-10T07:09:24.668Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Element-UI简介"><a href="#Element-UI简介" class="headerlink" title="Element UI简介"></a>Element UI简介</h2><p>基于vue的一套桌面端组件，提前封装好的UI模板。方便开发者快速搭建一个网站前端界面。<br>官网：<a href="https://element.eleme.cn/">https://element.eleme.cn/</a></p><h2 id="Element-UI安装"><a href="#Element-UI安装" class="headerlink" title="Element UI安装"></a>Element UI安装</h2><h3 id="首先创建Vue项目"><a href="#首先创建Vue项目" class="headerlink" title="首先创建Vue项目"></a>首先创建Vue项目</h3><ul><li>确保电脑安装Vue环境</li><li>执行命令 vue ui 打开浏览器打开Vue管理界面</li><li>打开小房子按钮<img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910080849.png"></li><li>选择创建 <img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910080939.png"></li><li>设置项目存放路径 <img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910081206.png"></li><li>点击在此创建项目</li><li>输入项目名称，点击下一步<img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910081418.png" height=600></li><li>选择手动配置项目，点击下一步<img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910081655.png"></li><li>进行功能配置，点击下一步<img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910081938.png"></li><li>打开hostory mode,点击创建项目 <img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910082130.png"></li><li>点击创建项目不保存预设</li><li>等待项目创建结束</li><li>出现该图片代表项目安装成功<img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910082653.png"><h3 id="给项目安装ElementUI插件"><a href="#给项目安装ElementUI插件" class="headerlink" title="给项目安装ElementUI插件"></a>给项目安装ElementUI插件</h3></li><li>点击插件<img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910082832.png"></li><li>点击添加插件 <img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910082922.png"></li><li>搜索框输入element,选中第一项<img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910083025.png"></li><li>点击完成安装</li><li>点击继续就会发现ElementUI插件已经安装在项目中，界面如下所示<img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910083355.png"><h3 id="启动项目"><a href="#启动项目" class="headerlink" title="启动项目"></a>启动项目</h3></li><li>打开项目，使用Ideal打开<img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910083638.png"></li><li>打开之后可以看见Plugin中有elelement说明element已经成功安装在Vue项目中<img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910083845.png"></li><li>终端执行命名 npm run serve</li><li>若安装成功出现以下界面 <img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910084218.png" width=600><h2 id="ElementUI组件的使用"><a href="#ElementUI组件的使用" class="headerlink" title="ElementUI组件的使用"></a>ElementUI组件的使用</h2><h3 id="Icon图标"><a href="#Icon图标" class="headerlink" title="Icon图标"></a>Icon图标</h3>提供了一套常用的图标集合，直接使用i标签结合class来使用：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;i class=&quot;el-icon-edit&quot;&gt;&lt;/i&gt;</span><br></pre></td></tr></table></figure>直接通过设置类名为 el-icon-iconName 来使用即可。<br>图标示例 <img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910085025.png" width=600><h3 id="在项目中尝试"><a href="#在项目中尝试" class="headerlink" title="在项目中尝试"></a>在项目中尝试</h3></li><li>新建vue组件<img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910085956.png"></li><li>配置路由 <img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910143031.png"></li><li>在App.vue中配置<img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240910145445.png"><h2 id="Button按钮"><a href="#Button按钮" class="headerlink" title="Button按钮"></a>Button按钮</h2></li><li>是 Element Ul提供的一组常用的操作按钮组件，直接使用封装好的 el-button,比如:<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;el-button type=&quot;info&quot; round&gt;信息按钮&lt;/el-button&gt;</span><br></pre></td></tr></table></figure>基于el-button，可以使用 type、plain、round、circle</li><li><style>h2{  background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);color: #000;}h3{  background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}</style></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Element-UI简介&quot;&gt;&lt;a href=&quot;#Element-UI简介&quot; class=&quot;headerlink&quot; title=&quot;Element UI简介&quot;&gt;&lt;/a&gt;Element UI简介&lt;/h2&gt;&lt;p&gt;基于vue的一套桌面端组件，提前封装好的UI模板。方便开发者</summary>
+      
+    
+    
+    
+    <category term="ElementUI+SpringBoot教程" scheme="https://yjxdl.github.io/categories/ElementUI-SpringBoot%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="ElementUI" scheme="https://yjxdl.github.io/tags/ElementUI/"/>
+    
+    <category term="SpringBoot" scheme="https://yjxdl.github.io/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Matlab分析.md</title>
+    <link href="https://yjxdl.github.io/2024/09/09/Matlab%E5%88%86%E6%9E%90/"/>
+    <id>https://yjxdl.github.io/2024/09/09/Matlab%E5%88%86%E6%9E%90/</id>
+    <published>2024-09-09T09:27:49.000Z</published>
+    <updated>2024-09-09T10:01:19.511Z</updated>
+    
+    <content type="html"><![CDATA[<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><div id="hbe-security">  <div class="hbe-input-container">  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />    <label for="pass">Please enter the password to read the blog.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">U2FsdGVkX182JyCzTy+Bslc9CDP4a3JztOsazv7PwVZ7pRWJ985RzqFpMcE5pBn0DhmqAT2vP2b/gpB7sFJrb3u7wQxcfO96IFa4JeSnMYTiWd1jR/2pZgHa+/9Ho9BS4hYKeDszBT470/VnzU0A1iSBUSV7GReIpA5F95lmqZ9NtVw68JfRRc16uz6I2+E+fkzk92c/sQDEna+L+rID5CXIEUmaWLGjuB/xmG4/m2fIl5BISNSnC66wNL2bnTNjsRhTmtNUcXpqT18TisI8KE04rNNHF+7wN9hChcvu/RnwwI9huMLwCO6tgcoplf/x5zTUe4tdBGTznsu2VxTn8BQ6ip9uLKTFOuiicdKzMba7Jb0MRBdUkVf0ek/t1LewxVV1ZA3D2hJoorTP1InjASp5EhSpTwPfjOSVPOp2g8ywd08kf0tYMkZfOHM+4SpQdOiTBQ0ss5sQ39rWNtN5Au0DSZeY9qTi314vOqgbeHPelc4lbo37+zRfJvnKvM4bChkpFhOQbHh06F6GD+UCMWt/hf8qg5z7oI+ECQOaM6kgAXpFbAcLSWO1JADOMgV6WNzI1jpJcOimVtPfO/TumQGiXrNlh18oNwnh/Dh6NQeeZa2p/MoRy7AE985MOIxPIOUicQ0iblufcrcfeJhM+EhHTxFeslVjtUJ74VMuBw8JlpkKzdn8SeRBYbj5/Ywc/cIwE4p+H/OE7xzowE+AvEgJi4hyf665htB5PzA7cmfyhfeK4Rfi5/ZM2olJvvXjK2zA3zEWtFFdBnRt4WuwMLA62nTnBn64nG+kosyRqPRcOWU9L9hthWhMguldGh2MMr51CndYmRUqu1OR6nLR5t1Q6+Eca6sXO2M6mBBugAdvboyLjEd/wHUCWO4y5YXwuYGu6Osj/eellMuheWMtANx5LWuJWjlJl1MOUBBL/d4zHPNGd3rFhA5XFLqVEwiJ/h8ALWYuOAPy4IjbGOUS1kjABAaY7wU2DmKimNHBBG6dUn3KJUcLLKsmi0Lqkd81vPXQUN+nU51j+vntKzyaasToHpwYJXPMTcpDfU3o0EqkvC/RJn77nZyOXCKIthYCOJp8kewlfDvtzu6WPGuWMX8ZWjfy8LBZPt3LRfcCi6hd/nO11JQjD53ZdVaojRvTccUAIDVFdtXH1cmCyyxcfXxJqfl9WXrN7I0O/VVSX9M7RsW6LZmsFRC1gz/x/cpj6Hjkppi2jb8ksbwy+SWlMV2DU2G40CN1dM0mmG80JZ+aszU1ZopTmuV5i2azkJ46h+MAXgPFB83gVik+LsTS9seCmiCxmAaRtK454j0PcN5dZJ+XMbrg+5zPTjHz7yx7Ozmv9eRkx8XunscvlZ3gZrJaNazFGmoUIgmZoFNk+0g4xCu9LJY4L5//lvNzLZXTp4TzVzFu9o7tOwmb+qKHQNDByt/xfhH7OVn7DV+eXUemnJKLXDGYKoIsLRsIzmAjmtupVZ0Tytz2OwOutpHOq3A6puxDgLQyiuKswj6UwAcD2bf2MI/Sa0hQiL2T9zIIsRcg8W2mPSvLyipo2Z+Z5NDDbOXQF//2B4dPIxzWqqxflVYCdo1AV7a3OXPm91uvnF/FCHOj2Pk5GH87Bjo7s3nLpzP+E3TGQTz2lgKbABU=</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">The article has been encrypted, please enter your password to view.&lt;br&gt;</summary>
+    
+    
+    
+    <category term="玻璃组分仿真" scheme="https://yjxdl.github.io/categories/%E7%8E%BB%E7%92%83%E7%BB%84%E5%88%86%E4%BB%BF%E7%9C%9F/"/>
+    
+    
+    <category term="Matlab" scheme="https://yjxdl.github.io/tags/Matlab/"/>
+    
+    <category term="组分仿真" scheme="https://yjxdl.github.io/tags/%E7%BB%84%E5%88%86%E4%BB%BF%E7%9C%9F/"/>
+    
+    <category term="线性模拟" scheme="https://yjxdl.github.io/tags/%E7%BA%BF%E6%80%A7%E6%A8%A1%E6%8B%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>软件加密</title>
@@ -188,9 +267,9 @@ h4{
     <link href="https://yjxdl.github.io/2022/06/22/SelfLearning/CSharp%E4%BD%BF%E7%94%A8Redis/"/>
     <id>https://yjxdl.github.io/2022/06/22/SelfLearning/CSharp%E4%BD%BF%E7%94%A8Redis/</id>
     <published>2022-06-22T12:42:45.000Z</published>
-    <updated>2022-06-22T13:23:50.673Z</updated>
+    <updated>2024-09-09T09:31:10.129Z</updated>
     
-    <content type="html"><![CDATA[<style>h2{    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);color: #000;}h3{    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}</style><h2 id="Redis管理工具"><a href="#Redis管理工具" class="headerlink" title="Redis管理工具"></a>Redis管理工具</h2><ul><li><strong>百度网盘下载Redis管理工具</strong><br>链接：<a href="https://pan.baidu.com/s/1rTtHzT-pP0MoDejBGgVNzw">https://pan.baidu.com/s/1rTtHzT-pP0MoDejBGgVNzw</a><br>提取码：1234</li><li><strong>编辑连接设置</strong><br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202206222038471.png"></li></ul><p><strong>连接成功会显示</strong><br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202206222038975.png"></p><ul><li><strong>注意这里要打开Redis命令窗口</strong><br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202206222121473.png"></li><li><strong>C#使用Redis示例</strong></li></ul><ol><li>在NuGet中安装ServiceStack.Redis<br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202206222100196.png"></li><li>C#代码示例<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> ServiceStack.Redis;</span><br><span class="line"><span class="keyword">using</span> System;</span><br><span class="line"><span class="keyword">using</span> System.Collections.Generic;</span><br><span class="line"><span class="keyword">using</span> System.ComponentModel;</span><br><span class="line"><span class="keyword">using</span> System.Data;</span><br><span class="line"><span class="keyword">using</span> System.Drawing;</span><br><span class="line"><span class="keyword">using</span> System.Linq;</span><br><span class="line"><span class="keyword">using</span> System.Text;</span><br><span class="line"><span class="keyword">using</span> System.Threading.Tasks;</span><br><span class="line"><span class="keyword">using</span> System.Windows.Forms;</span><br><span class="line"><span class="keyword">namespace</span> <span class="title">CsharpRedisTest</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">partial</span> <span class="keyword">class</span> <span class="title">Form1</span> : <span class="title">Form</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="title">Form1</span>()</span></span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">static</span> RedisClient client = <span class="keyword">new</span> RedisClient(<span class="string">&quot;127.0.0.1&quot;</span>, <span class="number">6379</span>);</span><br><span class="line">        <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">button1_Click</span>(<span class="params"><span class="built_in">object</span> sender, EventArgs e</span>)</span></span><br><span class="line">        &#123;</span><br><span class="line">            client.ChangeDb(<span class="number">1</span>);</span><br><span class="line">            List&lt;<span class="built_in">int</span>&gt; ls = <span class="keyword">new</span> List&lt;<span class="built_in">int</span>&gt;();</span><br><span class="line">            ls.Add(<span class="number">131</span>);</span><br><span class="line">            ls.Add(<span class="number">2567</span>);</span><br><span class="line">            ls.Add(<span class="number">5465</span>);</span><br><span class="line">            <span class="comment">//读取</span></span><br><span class="line">            <span class="built_in">string</span> name = client.Get&lt;String&gt;(<span class="string">&quot;name1&quot;</span>);</span><br><span class="line">            <span class="built_in">string</span> pwd = client.Get&lt;<span class="built_in">string</span>&gt;(<span class="string">&quot;password1&quot;</span>);</span><br><span class="line">            <span class="comment">//存储</span></span><br><span class="line">            client.Set&lt;<span class="built_in">string</span>&gt;(<span class="string">&quot;name&quot;</span>, <span class="string">&quot;11&quot;</span>);</span><br><span class="line">            client.Set&lt;<span class="built_in">string</span>&gt;(<span class="string">&quot;password&quot;</span>, <span class="string">&quot;22&quot;</span>);</span><br><span class="line">            <span class="comment">//存list集合</span></span><br><span class="line">            client.Set&lt;List&lt;<span class="built_in">int</span>&gt;&gt;(<span class="string">&quot;1&quot;</span>, ls);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+    <content type="html"><![CDATA[<h2 id="Redis管理工具"><a href="#Redis管理工具" class="headerlink" title="Redis管理工具"></a>Redis管理工具</h2><ul><li><strong>百度网盘下载Redis管理工具</strong><br>链接：<a href="https://pan.baidu.com/s/1rTtHzT-pP0MoDejBGgVNzw">https://pan.baidu.com/s/1rTtHzT-pP0MoDejBGgVNzw</a><br>提取码：1234</li><li><strong>编辑连接设置</strong><br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202206222038471.png"></li></ul><p><strong>连接成功会显示</strong><br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202206222038975.png"></p><ul><li><strong>注意这里要打开Redis命令窗口</strong><br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202206222121473.png"></li><li><strong>C#使用Redis示例</strong></li></ul><ol><li>在NuGet中安装ServiceStack.Redis<br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/202206222100196.png"></li><li>C#代码示例<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> ServiceStack.Redis;</span><br><span class="line"><span class="keyword">using</span> System;</span><br><span class="line"><span class="keyword">using</span> System.Collections.Generic;</span><br><span class="line"><span class="keyword">using</span> System.ComponentModel;</span><br><span class="line"><span class="keyword">using</span> System.Data;</span><br><span class="line"><span class="keyword">using</span> System.Drawing;</span><br><span class="line"><span class="keyword">using</span> System.Linq;</span><br><span class="line"><span class="keyword">using</span> System.Text;</span><br><span class="line"><span class="keyword">using</span> System.Threading.Tasks;</span><br><span class="line"><span class="keyword">using</span> System.Windows.Forms;</span><br><span class="line"><span class="keyword">namespace</span> <span class="title">CsharpRedisTest</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">partial</span> <span class="keyword">class</span> <span class="title">Form1</span> : <span class="title">Form</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="title">Form1</span>()</span></span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">static</span> RedisClient client = <span class="keyword">new</span> RedisClient(<span class="string">&quot;127.0.0.1&quot;</span>, <span class="number">6379</span>);</span><br><span class="line">        <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">button1_Click</span>(<span class="params"><span class="built_in">object</span> sender, EventArgs e</span>)</span></span><br><span class="line">        &#123;</span><br><span class="line">            client.ChangeDb(<span class="number">1</span>);</span><br><span class="line">            List&lt;<span class="built_in">int</span>&gt; ls = <span class="keyword">new</span> List&lt;<span class="built_in">int</span>&gt;();</span><br><span class="line">            ls.Add(<span class="number">131</span>);</span><br><span class="line">            ls.Add(<span class="number">2567</span>);</span><br><span class="line">            ls.Add(<span class="number">5465</span>);</span><br><span class="line">            <span class="comment">//读取</span></span><br><span class="line">            <span class="built_in">string</span> name = client.Get&lt;String&gt;(<span class="string">&quot;name1&quot;</span>);</span><br><span class="line">            <span class="built_in">string</span> pwd = client.Get&lt;<span class="built_in">string</span>&gt;(<span class="string">&quot;password1&quot;</span>);</span><br><span class="line">            <span class="comment">//存储</span></span><br><span class="line">            client.Set&lt;<span class="built_in">string</span>&gt;(<span class="string">&quot;name&quot;</span>, <span class="string">&quot;11&quot;</span>);</span><br><span class="line">            client.Set&lt;<span class="built_in">string</span>&gt;(<span class="string">&quot;password&quot;</span>, <span class="string">&quot;22&quot;</span>);</span><br><span class="line">            <span class="comment">//存list集合</span></span><br><span class="line">            client.Set&lt;List&lt;<span class="built_in">int</span>&gt;&gt;(<span class="string">&quot;1&quot;</span>, ls);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><style>h2{ background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);color: #000;}h3{ background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}</style></li></ol>]]></content>
     
     
     <summary type="html">C#使用Redis</summary>

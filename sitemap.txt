@@ -1,3 +1,7 @@
+https://yjxdl.github.io/2024/09/14/%E5%A4%A7%E5%B1%8F%E5%B1%95%E7%A4%BA/
+https://yjxdl.github.io/2024/09/10/ElementUI/
+https://yjxdl.github.io/2024/09/09/Matlab%E5%88%86%E6%9E%90/
+https://yjxdl.github.io/2022/06/22/SelfLearning/CSharp%E4%BD%BF%E7%94%A8Redis/
 https://yjxdl.github.io/2022/10/10/CAPP/MYSQL%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E8%AE%BE%E7%BD%AE/
 https://yjxdl.github.io/2022/04/29/CAPP/CSharpLearning/
 https://yjxdl.github.io/2022/09/30/CAPP/Csharp%E8%BF%9E%E6%8E%A5PLC/
@@ -10,7 +14,6 @@ https://yjxdl.github.io/2022/05/03/CAPP/CSharp%20WinForm%E7%AA%97%E4%BD%93%E9%80
 https://yjxdl.github.io/2022/06/08/CAPP/CSharp%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%AD%A6%E4%B9%A0/
 https://yjxdl.github.io/2022/04/27/CAPP/CSharp%E5%92%8CMatlab%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/
 https://yjxdl.github.io/2022/06/16/SelfLearning/Refactoring/
-https://yjxdl.github.io/2022/06/22/SelfLearning/CSharp%E4%BD%BF%E7%94%A8Redis/
 https://yjxdl.github.io/categories/index.html
 https://yjxdl.github.io/link/index.html
 https://yjxdl.github.io/tags/index.html
@@ -26,6 +29,11 @@ https://yjxdl.github.io/tags/%E5%85%A8%E6%99%AF%E8%A7%86%E9%A2%91%E5%AD%A6%E4%B9
 https://yjxdl.github.io/tags/WPF/
 https://yjxdl.github.io/tags/Chart%E6%8E%A7%E4%BB%B6/
 https://yjxdl.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%8A%A0%E5%AF%86/
+https://yjxdl.github.io/tags/%E7%BB%84%E5%88%86%E4%BB%BF%E7%9C%9F/
+https://yjxdl.github.io/tags/%E7%BA%BF%E6%80%A7%E6%A8%A1%E6%8B%9F/
+https://yjxdl.github.io/tags/ElementUI/
+https://yjxdl.github.io/tags/SpringBoot/
+https://yjxdl.github.io/tags/%E5%A4%A7%E5%B1%8F%E5%B1%95%E7%A4%BA%EF%BC%8Cmysql/
 https://yjxdl.github.io/categories/C-%E5%AD%A6%E4%B9%A0/
 https://yjxdl.github.io/categories/C/
 https://yjxdl.github.io/categories/C-%E4%BD%BF%E7%94%A8Redis/
@@ -38,3 +46,5 @@ https://yjxdl.github.io/categories/Mysql/
 https://yjxdl.github.io/categories/%E5%85%A8%E6%99%AF%E8%A7%86%E9%A2%91/
 https://yjxdl.github.io/categories/LightningChart/
 https://yjxdl.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%8A%A0%E5%AF%86/
+https://yjxdl.github.io/categories/%E7%8E%BB%E7%92%83%E7%BB%84%E5%88%86%E4%BB%BF%E7%9C%9F/
+https://yjxdl.github.io/categories/ElementUI-SpringBoot%E6%95%99%E7%A8%8B/
