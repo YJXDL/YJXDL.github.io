@@ -6,7 +6,7 @@
   <link href="https://yjxdl.github.io/atom.xml" rel="self"/>
   
   <link href="https://yjxdl.github.io/"/>
-  <updated>2024-09-14T03:38:00.393Z</updated>
+  <updated>2024-09-19T00:35:06.759Z</updated>
   <id>https://yjxdl.github.io/</id>
   
   <author>
@@ -21,20 +21,15 @@
     <link href="https://yjxdl.github.io/2024/09/14/%E5%A4%A7%E5%B1%8F%E5%B1%95%E7%A4%BA/"/>
     <id>https://yjxdl.github.io/2024/09/14/%E5%A4%A7%E5%B1%8F%E5%B1%95%E7%A4%BA/</id>
     <published>2024-09-14T03:37:01.000Z</published>
-    <updated>2024-09-14T03:38:00.393Z</updated>
+    <updated>2024-09-19T00:35:06.759Z</updated>
     
-    <content type="html"><![CDATA[<style>h2{    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);color: #000;}h3{    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}</style>]]></content>
+    <content type="html"><![CDATA[<h2 id="DataEase"><a href="#DataEase" class="headerlink" title="DataEase"></a>DataEase</h2><p>采用开源的DataEase作为数据可视化工具，能够通过简单的拖拉拽快速制作表格</p><h3 id="DataEase的安装"><a href="#DataEase的安装" class="headerlink" title="DataEase的安装"></a>DataEase的安装</h3><p>MYsql Linux环境下安装<a href="https://www.cnblogs.com/whjblog/p/17192502.html">https://www.cnblogs.com/whjblog/p/17192502.html</a></p><h3 id="DataEase的备份和迁移"><a href="#DataEase的备份和迁移" class="headerlink" title="DataEase的备份和迁移"></a>DataEase的备份和迁移</h3><h4 id="备份数据来源"><a href="#备份数据来源" class="headerlink" title="备份数据来源"></a>备份数据来源</h4><p>备份数据来自于 /opt/dataease2.0 ,该文件夹存放了DataEase运行时的配置文件以及运行时所产生的数据，包括日志文件等。</p><h4 id="打包该文件夹"><a href="#打包该文件夹" class="headerlink" title="打包该文件夹"></a>打包该文件夹</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">tar -czvf dataease2.0.tar.gz /opt/dataease2.0</span><br></pre></td></tr></table></figure><h4 id="将该文件夹移动到指定位置"><a href="#将该文件夹移动到指定位置" class="headerlink" title="将该文件夹移动到指定位置"></a>将该文件夹移动到指定位置</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mv dataease2.0.tar.gz /opt/dataease2.0</span><br></pre></td></tr></table></figure><h4 id="强制删除某个文件夹"><a href="#强制删除某个文件夹" class="headerlink" title="强制删除某个文件夹"></a>强制删除某个文件夹</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-r 表示递归删除文件夹及其所有内容（包括子文件和子文件夹）。</span><br><span class="line">如果您想强制删除（即使文件或文件夹有写保护），可以使用 -f 选项：</span><br><span class="line">rm -rf 文件夹路径</span><br></pre></td></tr></table></figure><h3 id="DataEase服务的启动"><a href="#DataEase服务的启动" class="headerlink" title="DataEase服务的启动"></a>DataEase服务的启动</h3><h4 id="输入dectl查看可以使用的命令"><a href="#输入dectl查看可以使用的命令" class="headerlink" title="输入dectl查看可以使用的命令"></a>输入dectl查看可以使用的命令</h4><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240919083022.png"></p><h4 id="启动DataEase"><a href="#启动DataEase" class="headerlink" title="启动DataEase"></a>启动DataEase</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">dectl start</span><br></pre></td></tr></table></figure><h4 id="关闭DataEase"><a href="#关闭DataEase" class="headerlink" title="关闭DataEase"></a>关闭DataEase</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">dectl stop</span><br></pre></td></tr></table></figure><style>h2{    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);color: #000;}h3{    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}</style>]]></content>
     
     
       
       
-    <summary type="html">&lt;style&gt;
-h2{
-    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);
-color: #000;
-}
-h3{
-    background: linear-gradient(to top, </summary>
+    <summary type="html">&lt;h2 id=&quot;DataEase&quot;&gt;&lt;a href=&quot;#DataEase&quot; class=&quot;headerlink&quot; title=&quot;DataEase&quot;&gt;&lt;/a&gt;DataEase&lt;/h2&gt;&lt;p&gt;采用开源的DataEase作为数据可视化工具，能够通过简单的拖拉拽快速制作表格&lt;/p&gt;
+&lt;h</summary>
       
     
     
