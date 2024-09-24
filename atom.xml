@@ -6,7 +6,7 @@
   <link href="https://yjxdl.github.io/atom.xml" rel="self"/>
   
   <link href="https://yjxdl.github.io/"/>
-  <updated>2024-09-20T00:40:04.356Z</updated>
+  <updated>2024-09-20T03:08:14.373Z</updated>
   <id>https://yjxdl.github.io/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Mqtt协议</title>
+    <link href="https://yjxdl.github.io/2024/09/20/Mqtt%E5%8D%8F%E8%AE%AE/"/>
+    <id>https://yjxdl.github.io/2024/09/20/Mqtt%E5%8D%8F%E8%AE%AE/</id>
+    <published>2024-09-20T00:51:02.000Z</published>
+    <updated>2024-09-20T03:08:14.373Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="实现生产者，发送消息"><a href="#实现生产者，发送消息" class="headerlink" title="实现生产者，发送消息"></a>实现生产者，发送消息</h2><h3 id="导入依赖"><a href="#导入依赖" class="headerlink" title="导入依赖"></a>导入依赖</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;org.springframework.integration&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;spring-integration-mqtt&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;<span class="number">5.3</span><span class="number">.2</span>.RELEASE&lt;/version&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br></pre></td></tr></table></figure><h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><p>修改application.yml,增加MQTT相关的配置，示例如下：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">spring:</span><br><span class="line">  application:</span><br><span class="line">    name: provider</span><br><span class="line">    #MQTT配置信息</span><br><span class="line">  mqtt:</span><br><span class="line">    #MQTT服务地址，端口号默认1883，如果有多个，用逗号隔开</span><br><span class="line">    url: tcp://127.0.0.1:1883</span><br><span class="line">    #用户名</span><br><span class="line">    username: admin</span><br><span class="line">    #密码</span><br><span class="line">    password: public</span><br><span class="line">    #客户端id(不能重复)</span><br><span class="line">    client:</span><br><span class="line">      id: provider-id</span><br><span class="line">    #MQTT默认的消息推送主题，实际可在调用接口是指定</span><br><span class="line">    default:</span><br><span class="line">      topic: topic</span><br><span class="line">server:</span><br><span class="line">  port: 8080</span><br></pre></td></tr></table></figure><h3 id="Springboot让非web项目保持运行"><a href="#Springboot让非web项目保持运行" class="headerlink" title="Springboot让非web项目保持运行"></a>Springboot让非web项目保持运行</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;实现生产者，发送消息&quot;&gt;&lt;a href=&quot;#实现生产者，发送消息&quot; class=&quot;headerlink&quot; title=&quot;实现生产者，发送消息&quot;&gt;&lt;/a&gt;实现生产者，发送消息&lt;/h2&gt;&lt;h3 id=&quot;导入依赖&quot;&gt;&lt;a href=&quot;#导入依赖&quot; class=&quot;head</summary>
+      
+    
+    
+    
+    
+    <category term="Mqtt" scheme="https://yjxdl.github.io/tags/Mqtt/"/>
+    
+    <category term="Springboot" scheme="https://yjxdl.github.io/tags/Springboot/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Mosquitto的安装和使用</title>
     <link href="https://yjxdl.github.io/2024/09/20/Mosquitto%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/"/>
     <id>https://yjxdl.github.io/2024/09/20/Mosquitto%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</id>
     <published>2024-09-20T00:39:40.000Z</published>
-    <updated>2024-09-20T00:40:04.356Z</updated>
+    <updated>2024-09-20T00:43:47.727Z</updated>
     
     <content type="html"><![CDATA[<h2 id="软件安装包"><a href="#软件安装包" class="headerlink" title="软件安装包"></a>软件安装包</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">通过网盘分享的文件：Mqtt服务器安装</span><br><span class="line">链接: https://pan.baidu.com/s/1x_6tpNLICxrOefp0x-qKIg 提取码: txf2</span><br></pre></td></tr></table></figure><h2 id="Windows版本安装"><a href="#Windows版本安装" class="headerlink" title="Windows版本安装"></a>Windows版本安装</h2><h3 id="根据电脑版本选择对应安装包"><a href="#根据电脑版本选择对应安装包" class="headerlink" title="根据电脑版本选择对应安装包"></a>根据电脑版本选择对应安装包</h3><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240919174105.png"></p><h3 id="傻瓜式安装（略）"><a href="#傻瓜式安装（略）" class="headerlink" title="傻瓜式安装（略）"></a>傻瓜式安装（略）</h3><p>软件安装默认位置 C:\Program Files\mosquitto</p><h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><h4 id="配置文件的位置为安装mosquitto的位置，使用记事本打开该文件，"><a href="#配置文件的位置为安装mosquitto的位置，使用记事本打开该文件，" class="headerlink" title="配置文件的位置为安装mosquitto的位置，使用记事本打开该文件，"></a>配置文件的位置为安装mosquitto的位置，使用记事本打开该文件，</h4><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240919174837.png"></p><h4 id="在文件的最后加入"><a href="#在文件的最后加入" class="headerlink" title="在文件的最后加入"></a>在文件的最后加入</h4><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240919174958.png"></p><h3 id="重启Mosquitto-Broker服务"><a href="#重启Mosquitto-Broker服务" class="headerlink" title="重启Mosquitto Broker服务"></a>重启Mosquitto Broker服务</h3><p>Mosquitto Broker服务是一个MQTT代理服务器，用户处理消息传递。</p><h4 id="Win-R-输入-services-msc-打开服务-重启Mosquitto-Broker-，可以设置为自启动"><a href="#Win-R-输入-services-msc-打开服务-重启Mosquitto-Broker-，可以设置为自启动" class="headerlink" title="Win+R 输入 services.msc 打开服务, 重启Mosquitto Broker ，可以设置为自启动"></a>Win+R 输入 services.msc 打开服务, 重启Mosquitto Broker ，可以设置为自启动</h4><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20240919175714.png"></p><h4 id="使用命令行工具发布消息"><a href="#使用命令行工具发布消息" class="headerlink" title="使用命令行工具发布消息"></a>使用命令行工具发布消息</h4><p>输入CMD，输入以下来发布消息</p><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">mosquitto_pub -h localhost -t topic -m &quot;Hello, MQTT&quot;</span><br></pre></td></tr></table></figure><h2 id="Linux版本的安装"><a href="#Linux版本的安装" class="headerlink" title="Linux版本的安装"></a>Linux版本的安装</h2>]]></content>
     
@@ -33,6 +57,10 @@
     
     
     
+    <category term="Mqtt" scheme="https://yjxdl.github.io/categories/Mqtt/"/>
+    
+    
+    <category term="Mqtt" scheme="https://yjxdl.github.io/tags/Mqtt/"/>
     
   </entry>
   
@@ -151,23 +179,26 @@
   </entry>
   
   <entry>
-    <title>论文</title>
-    <link href="https://yjxdl.github.io/2023/04/11/%E8%AE%BA%E6%96%87/%E8%AE%BA%E6%96%87/"/>
-    <id>https://yjxdl.github.io/2023/04/11/%E8%AE%BA%E6%96%87/%E8%AE%BA%E6%96%87/</id>
+    <title>Java学习</title>
+    <link href="https://yjxdl.github.io/2023/04/11/%E8%AE%BA%E6%96%87/Java%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://yjxdl.github.io/2023/04/11/%E8%AE%BA%E6%96%87/Java%E5%AD%A6%E4%B9%A0/</id>
     <published>2023-04-11T07:53:27.000Z</published>
-    <updated>2023-04-11T08:53:56.873Z</updated>
+    <updated>2024-09-24T06:56:58.700Z</updated>
     
-    <content type="html"><![CDATA[<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><div id="hbe-security">  <div class="hbe-input-container">  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />    <label for="pass">Please enter the password to read the blog.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">U2FsdGVkX1/G2rIFkZZms53AG2j2j58kuPGv6AW3bEW25jjufaR+olepZ0ydbekJq4HnGR4qCmQ5cmvLySgycaevXKpFVIM5gX9+wa3Aqnn6CMN2Ekt0pEnjjjKpBwecnaOGT8jdqPBVnbXux24NXQDLPQsU7VjOppQHDp35fdTw+hRxS4gsydkBtoi4W95X35pVli7aF20bS8sPUiEh5YcQtl1yai6cfepchlDw7Sy8rCdPt/sc3H/jBBbB1Uv+cLbAUSVGkrM8+YB5Snc4WrdcDNA9MPNAlkgEenRQ6g3SUpNIP5qjQNTX6XgmmHrj/cN6TzqyCECJAiBTUzbZxzvcMzJFghVcw9uP3vVQoQepSJSFCAAdKtX8nBwySjXFeSZllavyGXyZ2AK/JjZ5GvY9CM3cLMTwEvGz7CszClmdgb4B6mglcoVd+6gE1Mrpi4BGbcGqH4rdEFosOqh75Lbi+PFHCSAfh3jp+hqx3HNgVGIufRT3xp5/0ZMAc0kJL6voYkwG1yShi/catfchNHh6SWSGatFaHV3fwADJRus=</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-    
-    
-    <summary type="html">The article has been encrypted, please enter your password to view.&lt;br&gt;</summary>
+    <content type="html"><![CDATA[<h2 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h2><h3 id="Java乱码问题"><a href="#Java乱码问题" class="headerlink" title="Java乱码问题"></a>Java乱码问题</h3><p>在CMD运行时输入</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">chcp 65001</span><br></pre></td></tr></table></figure><p>然后输入</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">java -Dfile.encoding=utf-8 -jar 项目名称.jar</span><br></pre></td></tr></table></figure><style>h2{    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);color: #000;}h3{    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}</style>]]></content>
     
     
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Java&quot;&gt;&lt;a href=&quot;#Java&quot; class=&quot;headerlink&quot; title=&quot;Java&quot;&gt;&lt;/a&gt;Java&lt;/h2&gt;&lt;h3 id=&quot;Java乱码问题&quot;&gt;&lt;a href=&quot;#Java乱码问题&quot; class=&quot;headerlink&quot; title=&quot;J</summary>
+      
     
-    <category term="全景视频" scheme="https://yjxdl.github.io/categories/%E5%85%A8%E6%99%AF%E8%A7%86%E9%A2%91/"/>
     
     
-    <category term="全景视频学习" scheme="https://yjxdl.github.io/tags/%E5%85%A8%E6%99%AF%E8%A7%86%E9%A2%91%E5%AD%A6%E4%B9%A0/"/>
+    <category term="Java" scheme="https://yjxdl.github.io/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://yjxdl.github.io/tags/Java/"/>
     
   </entry>
   
