@@ -207,9 +207,9 @@
     <link href="https://yjxdl.github.io/2023/04/11/%E8%AE%BA%E6%96%87/Java%E5%AD%A6%E4%B9%A0/"/>
     <id>https://yjxdl.github.io/2023/04/11/%E8%AE%BA%E6%96%87/Java%E5%AD%A6%E4%B9%A0/</id>
     <published>2023-04-11T07:53:27.000Z</published>
-    <updated>2024-09-24T06:56:58.700Z</updated>
+    <updated>2024-10-28T02:21:23.266Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h2><h3 id="Java乱码问题"><a href="#Java乱码问题" class="headerlink" title="Java乱码问题"></a>Java乱码问题</h3><p>在CMD运行时输入</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">chcp 65001</span><br></pre></td></tr></table></figure><p>然后输入</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">java -Dfile.encoding=utf-8 -jar 项目名称.jar</span><br></pre></td></tr></table></figure><style>h2{    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);color: #000;}h3{    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}</style>]]></content>
+    <content type="html"><![CDATA[<h2 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h2><h3 id="Java乱码问题"><a href="#Java乱码问题" class="headerlink" title="Java乱码问题"></a>Java乱码问题</h3><p>在CMD运行时输入</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">chcp 65001</span><br></pre></td></tr></table></figure><p>然后输入</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">java -Dfile.encoding=utf-8 -jar 项目名称.jar</span><br></pre></td></tr></table></figure><h3 id="解决Sql-server连接不上出错的问题"><a href="#解决Sql-server连接不上出错的问题" class="headerlink" title="解决Sql server连接不上出错的问题"></a>解决Sql server连接不上出错的问题</h3><p>出错描述：驱动程序无法通过使用安全套接字层(SSL)加密与 SQL Server 建立安全连接。错误:“The server selected protocol version TLS10 is not accepted by client preferences [TLS13, TLS12]”。<br>1、 打开C:\Program Files\Java\jdk-1.8\jre\lib\security<br>2、 修改打开文件后，修改jdk.tls.disabledAlgorithms这一项，去掉TLSv1, 和 3DES_EDE_CBC,字符。然后重新启动项目，调用数据库执行SQL就没问题了<br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20241028102109.png"></p><style>h2{    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);color: #000;}h3{    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}</style>]]></content>
     
     
       
