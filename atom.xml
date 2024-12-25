@@ -6,7 +6,7 @@
   <link href="https://yjxdl.github.io/atom.xml" rel="self"/>
   
   <link href="https://yjxdl.github.io/"/>
-  <updated>2024-12-05T07:46:39.627Z</updated>
+  <updated>2024-12-25T03:43:26.452Z</updated>
   <id>https://yjxdl.github.io/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据来源分析</title>
+    <link href="https://yjxdl.github.io/2024/12/25/NHG/%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90%E5%88%86%E6%9E%901/"/>
+    <id>https://yjxdl.github.io/2024/12/25/NHG/%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90%E5%88%86%E6%9E%901/</id>
+    <published>2024-12-25T02:38:18.000Z</published>
+    <updated>2024-12-25T03:43:26.452Z</updated>
+    
+    <content type="html"><![CDATA[<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><div id="hbe-security">  <div class="hbe-input-container">  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />    <label for="pass">Please enter the password to read the blog.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">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</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">The article has been encrypted, please enter your password to view.&lt;br&gt;</summary>
+    
+    
+    
+    <category term="NHG" scheme="https://yjxdl.github.io/categories/NHG/"/>
+    
+    
+    <category term="泛微" scheme="https://yjxdl.github.io/tags/%E6%B3%9B%E5%BE%AE/"/>
+    
+    <category term="NHG" scheme="https://yjxdl.github.io/tags/NHG/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BIO、NIO、AIO学习</title>
+    <link href="https://yjxdl.github.io/2024/12/05/SelfLearning/BIO-NIO-AIO%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://yjxdl.github.io/2024/12/05/SelfLearning/BIO-NIO-AIO%E5%AD%A6%E4%B9%A0/</id>
+    <published>2024-12-05T07:55:12.000Z</published>
+    <updated>2024-12-06T00:34:38.021Z</updated>
+    
+    <content type="html"><![CDATA[<style>h2{    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);color: #000;}h4{background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}h3{background-image: linear-gradient(to right, #d0e6be 0%, #e1e1e1 20%);color: #000;}</style><h2 id="IO模型"><a href="#IO模型" class="headerlink" title="IO模型"></a>IO模型</h2><p>Java共支持三种网络编程模型：BIO,NIO,AIO</p><h3 id="BIO-Blocking-IO"><a href="#BIO-Blocking-IO" class="headerlink" title="BIO(Blocking IO)"></a>BIO(Blocking IO)</h3><p>同步阻塞模型，一个客户端连接对应一个处理线程</p><h4 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h4><h2 id="安装并激活office"><a href="#安装并激活office" class="headerlink" title="安装并激活office"></a>安装并激活office</h2><h3 id="1、以管理员身份运行安装包，选择对应的版本"><a href="#1、以管理员身份运行安装包，选择对应的版本" class="headerlink" title="1、以管理员身份运行安装包，选择对应的版本"></a>1、以管理员身份运行安装包，选择对应的版本</h3><p><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic@main/PicFile/20241206083410.png"></p><h3 id="2、"><a href="#2、" class="headerlink" title="2、"></a>2、</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;style&gt;
+h2{
+    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);
+color: #000;
+}
+h4{
+background: linear-gradient(to top, #e6e</summary>
+      
+    
+    
+    
+    
+    <category term="Java" scheme="https://yjxdl.github.io/tags/Java/"/>
+    
+    <category term="异步非阻塞学习" scheme="https://yjxdl.github.io/tags/%E5%BC%82%E6%AD%A5%E9%9D%9E%E9%98%BB%E5%A1%9E%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>使用SpringBoot给泛微发送消息</title>
@@ -449,59 +502,6 @@ h4{
     
     
     <category term="C#" scheme="https://yjxdl.github.io/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C#学习笔记</title>
-    <link href="https://yjxdl.github.io/2022/04/29/CAPP/CSharpLearning/"/>
-    <id>https://yjxdl.github.io/2022/04/29/CAPP/CSharpLearning/</id>
-    <published>2022-04-29T04:38:18.000Z</published>
-    <updated>2024-09-09T09:01:08.821Z</updated>
-    
-    <content type="html"><![CDATA[<style>h2{    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);color: #000;}h3{    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}</style><h2 id="把C-UserControl控件里面的TextBox控件清空"><a href="#把C-UserControl控件里面的TextBox控件清空" class="headerlink" title="把C# UserControl控件里面的TextBox控件清空"></a>把C# UserControl控件里面的TextBox控件清空</h2><figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">//清空TextBox里面的信息</span></span><br><span class="line"><span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; <span class="keyword">this</span>.Controls.Count; i++)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">foreach</span> (Control control <span class="keyword">in</span> <span class="keyword">this</span>.Controls[i].Controls)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (control <span class="keyword">is</span> TextBox)</span><br><span class="line">        &#123;</span><br><span class="line">            TextBox tb = (TextBox)control;</span><br><span class="line">            tb.Text = String.Empty;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="修改树控件随着下一步的按钮动态地变化"><a href="#修改树控件随着下一步的按钮动态地变化" class="headerlink" title="修改树控件随着下一步的按钮动态地变化"></a>修改树控件随着下一步的按钮动态地变化</h2><p>在树控件下有一个SelectedNode属性，我们把树定义为Static,就可以在其他界面设置TreeView的SelectedNode属性。是不是很吊。</p><p><strong>1. 设置树的Modifiers属性为Public。</strong><br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/20220503152009.png"><br><strong>2. 利用TreeNode属性记录下所有的树控件的值，设置为 static。</strong></p><figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> TreeNode tnForm;</span><br></pre></td></tr></table></figure><p><strong>3. 把这些TreeNode写入树的Nodes下。</strong></p><figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">treeViewEx1.Nodes.Add(tnForm);</span><br><span class="line">treeViewEx1.Nodes[<span class="number">0</span>].Expand();<span class="comment">//把菜单展开</span></span><br><span class="line">treeViewEx1.SelectedNode = tnForm.Nodes[<span class="number">0</span>];<span class="comment">//使得默认的为第一个界面</span></span><br></pre></td></tr></table></figure><p><strong>4. 定义树为Static，此时可能会出错，例如：</strong></p><figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">这时把 <span class="keyword">this</span>.treeViewEx1 改为 treeViewEx1 即可</span><br></pre></td></tr></table></figure><p><strong>5. 接下来在下一步按钮的事件中添加</strong></p><figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">Form2.treeViewEx1.SelectedNode = Form2.tnForm.Nodes[<span class="number">2</span>];</span><br><span class="line">Form2.AddControl(Form2.MyControl2_1);</span><br></pre></td></tr></table></figure><p><strong>6. 以下为补充信息</strong></p><h2 id="使用SQLSugar生成实体类对象"><a href="#使用SQLSugar生成实体类对象" class="headerlink" title="使用SQLSugar生成实体类对象"></a>使用SQLSugar生成实体类对象</h2><figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">button4_Click</span>(<span class="params"><span class="built_in">object</span> sender, EventArgs e</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    SqlSugarClient db = <span class="keyword">new</span> SqlSugar.SqlSugarClient(<span class="keyword">new</span> ConnectionConfig()</span><br><span class="line">    &#123;</span><br><span class="line">        ConnectionString = LocalDataBaseConn,<span class="comment">//连接字符串</span></span><br><span class="line">                                             <span class="comment">// ConnectionString = @&quot;Server = DESKTOP-QAFSTBC\MYYSSQLSERVER;Database = TopicTwoDataBase;uid = sa;pwd =123&quot;,//连接字符串</span></span><br><span class="line">        DbType = SqlSugar.DbType.SqlServer, <span class="comment">//数据库类型</span></span><br><span class="line">        IsAutoCloseConnection = <span class="literal">true</span>,<span class="comment">//不设成true,要手动close</span></span><br><span class="line">        InitKeyType = InitKeyType.Attribute<span class="comment">//从特性读取主键自增的信息</span></span><br><span class="line">    &#125;);</span><br><span class="line">    db.DbFirst.Where(<span class="string">&quot;producttest&quot;</span>).CreateClassFile(<span class="string">&quot;c:\\Demo\\2&quot;</span>);</span><br><span class="line">    db.DbFirst.Where(<span class="string">&quot;productparamstest&quot;</span>).CreateClassFile(<span class="string">&quot;c:\\Demo\\2&quot;</span>);</span><br><span class="line">    db.DbFirst.Where(<span class="string">&quot;productstaticresulttest&quot;</span>).CreateClassFile(<span class="string">&quot;c:\\Demo\\2&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="自己封装C-数据库容器，相当于允许Key存在Dictionary"><a href="#自己封装C-数据库容器，相当于允许Key存在Dictionary" class="headerlink" title="自己封装C#数据库容器，相当于允许Key存在Dictionary"></a>自己封装C#数据库容器，相当于允许Key存在Dictionary</h2><figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">List&lt;KeyValuePair&lt;<span class="built_in">string</span>, <span class="built_in">int</span>&gt;&gt; list = <span class="keyword">new</span> List&lt;KeyValuePair&lt;<span class="built_in">string</span>, <span class="built_in">int</span>&gt;&gt;();</span><br><span class="line">list.Add(<span class="keyword">new</span> KeyValuePair&lt;<span class="built_in">string</span>, <span class="built_in">int</span>&gt;(<span class="string">&quot;A&quot;</span>, <span class="number">10</span>));</span><br><span class="line">list.Add(<span class="keyword">new</span> KeyValuePair&lt;<span class="built_in">string</span>, <span class="built_in">int</span>&gt;(<span class="string">&quot;B&quot;</span>, <span class="number">11</span>));</span><br><span class="line">list.Add(<span class="keyword">new</span> KeyValuePair&lt;<span class="built_in">string</span>, <span class="built_in">int</span>&gt;(<span class="string">&quot;C&quot;</span>, <span class="number">12</span>));</span><br><span class="line">list.Add(<span class="keyword">new</span> KeyValuePair&lt;<span class="built_in">string</span>, <span class="built_in">int</span>&gt;(<span class="string">&quot;D&quot;</span>, <span class="number">13</span>));</span><br><span class="line">list.Add(<span class="keyword">new</span> KeyValuePair&lt;<span class="built_in">string</span>, <span class="built_in">int</span>&gt;(<span class="string">&quot;E&quot;</span>, <span class="number">14</span>));</span><br><span class="line">list.Add(<span class="keyword">new</span> KeyValuePair&lt;<span class="built_in">string</span>, <span class="built_in">int</span>&gt;(<span class="string">&quot;F&quot;</span>, <span class="number">15</span>));</span><br><span class="line">list.Add(<span class="keyword">new</span> KeyValuePair&lt;<span class="built_in">string</span>, <span class="built_in">int</span>&gt;(<span class="string">&quot;A&quot;</span>, <span class="number">1000000</span>));</span><br></pre></td></tr></table></figure><h2 id="在C-里面设置全局变量，以便在其他的窗口可以使用"><a href="#在C-里面设置全局变量，以便在其他的窗口可以使用" class="headerlink" title="在C#里面设置全局变量，以便在其他的窗口可以使用"></a>在C#里面设置全局变量，以便在其他的窗口可以使用</h2><ol><li>首先进入program.cs </li><li>在Program类后面添加一个类，注意要是静态类，如下<pre><code><figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"> <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title">user11</span></span><br><span class="line">&#123;</span><br><span class="line">     <span class="keyword">public</span> <span class="keyword">static</span> <span class="built_in">string</span> username;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></code></pre></li><li>进入其他窗口就可以使用：<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">user11.username = <span class="string">&quot;yjx&quot;</span>;</span><br></pre></td></tr></table></figure><h2 id="EntityFrameWork-学习"><a href="#EntityFrameWork-学习" class="headerlink" title="EntityFrameWork 学习"></a>EntityFrameWork 学习</h2></li><li>EF中的三种开发方式<br>DBFirst,CodeFirst<h2 id="IList-的Contains无法使用的解决方法"><a href="#IList-的Contains无法使用的解决方法" class="headerlink" title="IList 的Contains无法使用的解决方法"></a>IList<IList> 的Contains无法使用的解决方法</h2><figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">List&lt;List&lt;<span class="built_in">int</span>&gt;&gt; list = <span class="keyword">new</span> List&lt;List&lt;<span class="built_in">int</span>&gt;&gt;();</span><br><span class="line">list.Add(<span class="keyword">new</span> List&lt;<span class="built_in">int</span>&gt;&#123;<span class="number">0</span>,<span class="number">1</span>&#125;);</span><br><span class="line"><span class="keyword">if</span>(list.Contains(<span class="keyword">new</span> List&lt;<span class="built_in">int</span>&gt;&#123;<span class="number">0</span>,<span class="number">1</span>&#125;))  <span class="comment">// 结果为false</span></span><br></pre></td></tr></table></figure>原因分析：因为List<T>.Contains调用Equals()方法来比较对象<br>由于内部List<T>不会覆盖Equals，因此我们获得的是引用相等性。<br>我们可以通过自定义一个IEqualityComparer&lt;List<T>&gt;来解决问题，该Contains()按值进行比较.<br>也可以只使用LINQ:<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(list.Any(o=&gt;o.SequenceEqual(<span class="keyword">new</span>[]&#123;<span class="number">0</span>,<span class="number">1</span>&#125;));</span><br></pre></td></tr></table></figure></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;style&gt;
-h2{
-    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);
-color: #000;
-}
-h3{
-    background: linear-gradient(to top, </summary>
-      
-    
-    
-    
-    <category term="C#学习" scheme="https://yjxdl.github.io/categories/C-%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="C#" scheme="https://yjxdl.github.io/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C#和Matlab混合编程</title>
-    <link href="https://yjxdl.github.io/2022/04/27/CAPP/CSharp%E5%92%8CMatlab%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/"/>
-    <id>https://yjxdl.github.io/2022/04/27/CAPP/CSharp%E5%92%8CMatlab%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/</id>
-    <published>2022-04-27T04:41:40.000Z</published>
-    <updated>2022-09-30T02:28:04.496Z</updated>
-    
-    <content type="html"><![CDATA[<style>h2{    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);color: #000;}h3{    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}</style><h2 id="C-与Matlab混合编程"><a href="#C-与Matlab混合编程" class="headerlink" title="C#与Matlab混合编程"></a>C#与Matlab混合编程</h2><h3 id="在Matlab中编写函数"><a href="#在Matlab中编写函数" class="headerlink" title="在Matlab中编写函数"></a>在Matlab中编写函数</h3><figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">result</span> = <span class="title">addNum</span><span class="params">(a,b)</span></span></span><br><span class="line">    result = a + b;</span><br><span class="line"></span><br><span class="line">    x = <span class="number">-5</span>:<span class="number">0.1</span>:<span class="number">5</span>;</span><br><span class="line">    y = <span class="built_in">sin</span>(x);</span><br><span class="line">    <span class="built_in">plot</span>(x,y)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="对函数进行封装"><a href="#对函数进行封装" class="headerlink" title="对函数进行封装"></a>对函数进行封装</h3><p><strong>在命令行窗口中输入deploytool调出封装工具箱,选择Library Compiler.</strong><br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/20220427090420.png" alt="Library Compiler"></p><ol><li><strong>在TYPE下选择 .NET Assembly</strong><br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/20220427091433.png"></li><li><strong>在EXPORTED FUNCTIONS 点击右边+号，点击你写的程序点击打开</strong><br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/20220427091321.png"></li><li><strong>打包程序</strong></li></ol><ul><li>此时PACKAGE 变为绿色的小勾<br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/20220427091552.png"></li><li>点击绿色的小勾，然后选择对应的路径存放你写的程序就OK。<br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/20220427091736.png" alt="处理过程"></li><li>创建成功会出现以下文件夹<br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/20220427092014.png"><h3 id="对C-的环境进行选择"><a href="#对C-的环境进行选择" class="headerlink" title="对C#的环境进行选择"></a>对C#的环境进行选择</h3></li><li><strong>这一步很重要，不然肯定会报错</strong></li><li><strong>右键解决方案，点击属性</strong></li><li><strong>在属性中点击生成，目标平台选择x64即可</strong><br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/20220428153246.png"><h3 id="编写C-函数对Matlab进行调用"><a href="#编写C-函数对Matlab进行调用" class="headerlink" title="编写C#函数对Matlab进行调用"></a>编写C#函数对Matlab进行调用</h3></li><li><strong>先创建好一个Winform界面，把button按钮拖到界面上，我们在Button的click事件下，测试我们的程序</strong>。</li><li><strong>右键引用-&gt;添加引用</strong><br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/20220427092849.png"><ul><li>添加刚刚生成的dll 在刚刚的路径下for_testing文件夹下选择addNum.dll,点击添加。<br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/20220427093323.png"></li><li>添加MWArray.dll 在你安装MATLAB的路径下找到toolbox-&gt;donetbuilder-&gt;bin-&gt;win64-&gt;v4.0<br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/20220427093710.png"></li></ul></li><li><strong>写程序</strong><br>在程序中添加引用<br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/20220427093903.png"><ul><li>在Click事件下写代码<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">button1_Click</span>(<span class="params"><span class="built_in">object</span> sender, EventArgs e</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    Class1 demo = <span class="keyword">new</span> Class1();</span><br><span class="line">    MWArray a = <span class="number">1</span>, b = <span class="number">2</span>, c;</span><br><span class="line">    c = demo.addNum(a, b);            </span><br><span class="line">    button1.Text = c.ToString();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul></li><li><strong>运行结果</strong><ul><li>点击Button会出现：Button的Text变为我们加和的值，然后图片也显示出来了<br><img src="https://cdn.jsdelivr.net/gh/YJXDL/BlogPic/PicFile/20220427094200.png"></li></ul></li><li><strong>运行出错的解决方法</strong><br>运行结束时出现”无法加载 DLL “mclmcrrt9_4.dll”:找不到指定模块。<br><strong>解决办法：</strong> 安装matlab版本的MCR(Matlab compiler runtime),重启VS即可。<br><a href="https://ww2.mathworks.cn/products/compiler/matlab-runtime.html">MCR下载地址</a></li></ul>]]></content>
-    
-    
-    <summary type="html">C#和Matlab混合编程</summary>
-    
-    
-    
-    <category term="混合编程" scheme="https://yjxdl.github.io/categories/%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/"/>
-    
-    
-    <category term="C#" scheme="https://yjxdl.github.io/tags/C/"/>
-    
-    <category term="Matlab" scheme="https://yjxdl.github.io/tags/Matlab/"/>
     
   </entry>
   
